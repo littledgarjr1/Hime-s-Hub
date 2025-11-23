@@ -145,6 +145,6 @@ local ScriptButton = ScriptsTab:CreateButton({
    Name = "Dex Explorer",
    Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/REDzHUB/DEX-Explorer/main/Mobile.lua'))()
-         Notify("Dex Explorer", "Successfully Loaded Dex Explorer!", 5)
+         --Notify("Dex Explorer", "Successfully Loaded Dex Explorer!", 5)
    end,
 })
